@@ -1,7 +1,14 @@
 /* typography */
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100..900;1,100..900&display=swap');
-
+@font-face {
+    font-family: "Fraunces", serif;
+    src: url(/fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+@font-face {
+    font-family: "Fraunces", serif;
+    src: url(/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
 $font: "Fraunces", serif;
 
 // body font styling vars
